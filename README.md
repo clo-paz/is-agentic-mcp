@@ -9,7 +9,9 @@ Connect to the public Streamable HTTP endpoint:
 For a client that supports remote MCP servers, including Cursor and Claude clients with remote HTTP support, add this server entry to its MCP configuration:
 
 ```json
-{"mcpServers":{"is-agentic":{"url":"https://fk2efxqdersj346fbaw43tpqwi0qmist.lambda-url.us-west-2.on.aws/mcp"}}}
+{"mcpServers": {
+  "is-agentic": {"type":"http","url":"https://fk2efxqdersj346fbaw43tpqwi0qmist.lambda-url.us-west-2.on.aws/mcp"}
+}}
 ```
 
 No API key is needed. Clients must support Streamable HTTP (JSON response mode). Older Claude Desktop versions that only accept a local `command` need a remote-to-stdio bridge instead of this direct URL.
