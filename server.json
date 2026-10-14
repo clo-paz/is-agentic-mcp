@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.clo-paz/is-agentic-mcp",
+  "title": "Is Agentic",
+  "description": "Shop the Is Agentic store with read-only catalog discovery, gift recommendations and cart links.",
+  "repository": {
+    "url": "https://github.com/clo-paz/is-agentic-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://is-agentic.shop",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fk2efxqdersj346fbaw43tpqwi0qmist.lambda-url.us-west-2.on.aws/mcp"
+    }
+  ]
+}

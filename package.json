@@ -1,0 +1,1 @@
+{"name":"is-agentic-mcp","version":"1.0.0","private":true,"scripts":{"synth":"cdk synth is-agentic-mcp-url","deploy":"cdk deploy is-agentic-mcp-url --require-approval never","test":"node tests/unit.js && node test.js","test:infra":"node infra.test.js"},"dependencies":{"aws-cdk-lib":"^2.220.0","constructs":"^10.4.0"},"devDependencies":{"aws-cdk":"^2.1030.0"}}
