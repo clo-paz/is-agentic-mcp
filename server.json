@@ -7,12 +7,12 @@
     "url": "https://github.com/clo-paz/is-agentic-mcp",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://is-agentic.shop",
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://fk2efxqdersj346fbaw43tpqwi0qmist.lambda-url.us-west-2.on.aws/mcp"
+      "url": "https://mcp.is-agentic.shop/mcp"
     }
   ]
 }

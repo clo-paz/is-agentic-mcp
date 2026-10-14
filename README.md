@@ -4,17 +4,18 @@ A store your agent can shop. Read-only MCP for [is-agentic.shop](https://is-agen
 
 Connect to the public Streamable HTTP endpoint:
 
-`https://fk2efxqdersj346fbaw43tpqwi0qmist.lambda-url.us-west-2.on.aws/mcp`
+`https://mcp.is-agentic.shop/mcp`
 
 For a client that supports remote MCP servers, including Cursor and Claude clients with remote HTTP support, add this server entry to its MCP configuration:
 
 ```json
 {"mcpServers": {
-  "is-agentic": {"type":"http","url":"https://fk2efxqdersj346fbaw43tpqwi0qmist.lambda-url.us-west-2.on.aws/mcp"}
+  "is-agentic": {"type":"http","url":"https://mcp.is-agentic.shop/mcp"}
 }}
 ```
 
 No API key is needed. Clients must support Streamable HTTP (JSON response mode). Older Claude Desktop versions that only accept a local `command` need a remote-to-stdio bridge instead of this direct URL.
+The original [Function URL](https://fk2efxqdersj346fbaw43tpqwi0qmist.lambda-url.us-west-2.on.aws/mcp) remains available as a fallback.
 
 ## Tools
 
